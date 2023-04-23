@@ -13,6 +13,7 @@ function Index() {
   // variables 
   let count  = 0;
   return <div>
+    let Page_title = "Home Page"
      <h1>Home Page</h1>
      <p>Hello world this is home page</p>
      <hr></hr>
