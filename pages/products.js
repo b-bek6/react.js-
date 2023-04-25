@@ -26,10 +26,10 @@ const Proudcts = () => {
     <hr/>
     {/* produnt() just like function 
     product('one') */}
-    <Product name="one"/>
-    <Product name="two"/>
-    <Product name="three"/>
-    <Product name="four"/>
+    <Product name="one" description="Hi this is description of one"/>
+    <Product name="two" description="Hi this is description of two"/>
+    <Product name="three" description="Hi this is description of three"/>
+    <Product name="four" description="Hi this is description of four"/>
     </>
 };
 export default Proudcts

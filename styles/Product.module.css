@@ -1,5 +1,14 @@
 .product{
     padding: 10px;
-    border: 2px;
+
     background-color: royalblue;
+    margin-bottom: 10px;
+}
+
+.product p:first-child{
+    text-transform: capitalize;
+}
+
+#target{
+    background-color: red;
 }
