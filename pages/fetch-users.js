@@ -21,8 +21,10 @@ export default function FetchUsers() {
             <hr/>
             <table>
                 <thead>
-                    <th>Name</th>
-                    <th>email</th>
+                    <tr>
+                        <th>Name</th>
+                        <th>email</th>
+                    </tr>
                 </thead>
                 <tbody>
                     {

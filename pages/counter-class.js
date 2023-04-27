@@ -15,6 +15,12 @@ class Counter extends React.Component {
             count: This.state.count + 1  
         })
     }
+    componentDidMount() {
+        console.log("mount")
+    }
+    componentDidUpdate() {
+        console.lof("update")
+    }
     render(){
         console.log("render")
         return <>
